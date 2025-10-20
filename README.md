@@ -19,6 +19,11 @@
 3. Giải nén File Zip ra ổ D.</p>
 <img width="1149" height="554" alt="image" src="https://github.com/user-attachments/assets/1ec29fd3-9b1c-4649-8c89-0ba02fd89442" /></p>
 4. D:\Apache24\conf\httpd.conf</p>
+- ***Tạo thư mục chứa Website***.</p>
+`D:\Apache24\nguyenducduong`</p>
+<img width="874" height="583" alt="image" src="https://github.com/user-attachments/assets/4c2cd886-5624-4d8a-86d6-06ead8a988d6" /></p>
+- ***Trong đó bạn có thể thêm 1 file kiểm tra:***
+
 - ***Sửa dòng ServerRoot***</p>
 <img width="902" height="534" alt="image" src="https://github.com/user-attachments/assets/c032a107-65fe-4c35-8be5-29b68f8f4971" /></p>
 - ***Sửa DocumentRoot và Directory***.</p>
@@ -29,6 +34,23 @@
 - ***Mở file httpd-vhosts.conf***</p>
 - ***Thêm cấu hình website***</p>
 <img width="671" height="385" alt="image" src="https://github.com/user-attachments/assets/4b984eb0-6c53-4c1c-8dc5-5e96ef22f506" /></p>
+6. Fake IP</p>
+- ***Vị trí: C:\Windows\System32\drivers\etc\hosts***</p>
++ Mở Notepad bằng quyền Administrator.</p>
++ Chọn File → Open → chuyển sang All Files → chọn file hosts.</p>
++ Thêm dòng cuối cùng: 127.0.0.1   nguyenducduong.com </p>
+7. Thao tác dòng lệnh trên file D:\Apache24\bin\httpd.exe</p>
+- Chạy lệnh ***-k install***</p>
+<img width="1077" height="206" alt="image" src="https://github.com/user-attachments/assets/5677a840-735b-4796-9377-0b8c84db1818" /></p>
+- Chạy lệnh ***-k start***</p>
+<img width="1086" height="215" alt="image" src="https://github.com/user-attachments/assets/36f42e98-7d41-4bf8-a4a1-41e184ca079c" /></p>
+8. Thêm code cho file index.html</p>
+<img width="859" height="177" alt="image" src="https://github.com/user-attachments/assets/516c991c-14e9-4b7e-a9d4-f69b946db5c6" /></p>
+9. Kết quả đạt được</p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/95d5c818-28ba-4262-81cd-dd0cb66290ae" /></p>
+
+
+
 
 
 
