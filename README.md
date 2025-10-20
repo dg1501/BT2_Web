@@ -49,6 +49,37 @@
 9. Kết quả đạt được</p>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/95d5c818-28ba-4262-81cd-dd0cb66290ae" /></p>
 
+### 2. Cài đặt nodejs và nodered => Dùng làm backend.</p>
+1. Cài đặt Note.js</p>
+2. Cài đặt nodered</p>
+<img width="895" height="297" alt="image" src="https://github.com/user-attachments/assets/4db0e6ea-c1c1-4bc3-a126-09fc26ffbe69" /></p>
+3. Cài đặt NSSM</p>
+<img width="779" height="56" alt="image" src="https://github.com/user-attachments/assets/e88bdc2e-c324-4b07-b314-7b7be23161d6" /></p>
+- Giải nén và Copy **nssm.exe** vào thư mục D:\nodejs\nodered\.</p>
+<img width="814" height="320" alt="image" src="https://github.com/user-attachments/assets/2e2dfa8f-0d9a-497a-aa6c-e4539675bdc0" /></p>
+4. Tạo file khởi động Node-RED.</p>
+- Vào Notepad -> Tạo 1 file mới: Dán 5 nội dung sau vào.</p>
+`@echo off
+REM fix path
+set PATH=D:\nodejs;%PATH%
+REM Run Node-RED
+node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work" %*`</p>
+- Sau đó lưu với tên **run-nodered** vào D:\nodejs\nodered\</p>
+<img width="834" height="371" alt="image" src="https://github.com/user-attachments/assets/15c5a653-3e55-41cc-97fa-884d3589482f" /></p>
+5. Cài đặt service `a1-nodered`.</p>
+- Vào CMD -> cd /d D:\nodejs\nodered.</p>
+- Chạy lệnh **nssm.exe install a1-nodered** để cài đặt service.</p>
+- Chạy service `a1-nodered` bằng lệnh: **nssm start a1-nodered**</p>
+<img width="526" height="67" alt="image" src="https://github.com/user-attachments/assets/c68f8fd3-3182-406a-a91d-9877b1a05479" /></p>
+6. Kết quả đạt được</p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc24c576-9d5f-4ea4-8764-2ae46a6f4cc6" /></p>
+
+
+
+
+
+
+
 
 
 
