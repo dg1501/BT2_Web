@@ -1,4 +1,4 @@
-<img width="726" height="152" alt="image" src="https://github.com/user-attachments/assets/cc282be8-c0e8-4976-8ebe-9204d0797cda" /># Bài Tập 02: Lập Trình Web
+# Bài Tập 02: Lập Trình Web
 ## Nội Dung Bài Tập
 ### 1. *Cài đặt Apache web server*.
 ### 2. *Cài đặt nodejs và nodered => Dùng làm backend.*
