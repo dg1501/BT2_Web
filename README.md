@@ -127,6 +127,18 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 2.2. ***function***.</p>
 <img width="832" height="675" alt="image" src="https://github.com/user-attachments/assets/f50a5f9f-8701-4543-a726-3ae83c66a92a" /></p>
 2.3. ***MSSQL***.</p>
+<img width="683" height="867" alt="image" src="https://github.com/user-attachments/assets/713de2eb-9a00-4c70-a0fd-86e244ac7a91" /></p>
+2.4. ***http response***.</p>
+<img width="642" height="857" alt="image" src="https://github.com/user-attachments/assets/6ef7897e-4874-4af0-bff2-4399511e06a6" /></p>
+2.5. ***Thêm node 'Debug'***.</p>
+<img width="952" height="861" alt="image" src="https://github.com/user-attachments/assets/d16cbc19-0faf-4031-80ea-d67137388725" /></p>
+2.6. ***Test API***.</p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48cc6096-6789-47e5-bcb3-f4b8ce086e1f" /></p>
+
+
+
+
+
 
 
 
