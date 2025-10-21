@@ -1,4 +1,4 @@
-# Bài Tập 02: Lập Trình Web
+<img width="726" height="152" alt="image" src="https://github.com/user-attachments/assets/cc282be8-c0e8-4976-8ebe-9204d0797cda" /># Bài Tập 02: Lập Trình Web
 ## Nội Dung Bài Tập
 ### 1. *Cài đặt Apache web server*.
 ### 2. *Cài đặt nodejs và nodered => Dùng làm backend.*
@@ -94,7 +94,29 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 1. Truy cập giao diện Nodered bằng url: ***http://localhost:1880***
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2762af00-2434-4b8c-8eb4-11f1ecec1ffa" /></p>
 2. Cài đặt các thư viện:</p>
-2.1. Node-red-contrib-mssql-plus.</p>
+- Tại giao diện Nodered -> menu -> Manage palette -> install -> Tìm và cài từng package sau:</p>
+2.1. ***Node-red-contrib-mssql-plus***.</p>
+<img width="895" height="397" alt="image" src="https://github.com/user-attachments/assets/ff4d9597-e6ef-4ff1-860e-9b821f6a8daa" /></p>
+2.2. ***Node-red-node-mysql***.</p>
+<img width="720" height="158" alt="image" src="https://github.com/user-attachments/assets/a49cb3d9-4934-4ff3-9d63-8e32727cddfd" /></p>
+2.3. ***Node-red-contrib-telegrambot***.</p>
+<img width="726" height="152" alt="image" src="https://github.com/user-attachments/assets/2b53485c-e843-43cc-9e7e-41cf0f406e1f" /></p>
+2.4. ***Node-red-contrib-moment***.</p>
+<img width="718" height="184" alt="image" src="https://github.com/user-attachments/assets/391b5e5a-51a9-4595-95ce-6eedb592b2cc" /></p>
+2.5. ***node-red-contrib-influxdb***.</p>
+<img width="721" height="158" alt="image" src="https://github.com/user-attachments/assets/f3c891df-065c-4620-9a4c-e4f54ac83af6" /></p>
+2.6. ***node-red-contrib-duckdns***.</p>
+<img width="725" height="155" alt="image" src="https://github.com/user-attachments/assets/76bc3369-39c9-43dd-b716-0a9fe3976aee" /></p>
+2.7. ***node-red-contrib-cron-plus***.</p>
+<img width="733" height="180" alt="image" src="https://github.com/user-attachments/assets/ac09d661-1e35-4660-a213-4d153d636a51" /></p>
+
+
+
+
+
+
+
+
 
 
 
