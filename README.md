@@ -74,6 +74,34 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 6. Kết quả đạt được</p>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dc24c576-9d5f-4ea4-8764-2ae46a6f4cc6" /></p>
 
+### 3. Tạo CSDL.</p>
+1. Tạo Database.</p>
+- Tạo 1 database bất kì.</p>
+<img width="340" height="350" alt="image" src="https://github.com/user-attachments/assets/cacf49d1-5f28-4bf9-a020-94c764f537e4" /></p>
+2. Tạo User.</p>
+- Dùng code để tiến hành tạo user nhanh chóng hơn.</p>
+<img width="665" height="347" alt="image" src="https://github.com/user-attachments/assets/6fb057bb-46ea-42da-9d71-10a9b82b64f3" /></p>
+3. Tạo Table trong Database.</p>
+- Dùng code để tạo nhanh và thêm dữ liệu vào bảng.</p>
+<img width="793" height="202" alt="image" src="https://github.com/user-attachments/assets/8096e8d0-d2d7-4c19-aaac-fef64dbc64d9" /></p>
+4. Ghi nhớ các thông tin sau.</p>
+- IP</p>
+<img width="598" height="125" alt="image" src="https://github.com/user-attachments/assets/6044754b-fda8-4c3a-a0dd-ee667e510ef3" /></p>
+- PORT</p>
+<img width="466" height="423" alt="image" src="https://github.com/user-attachments/assets/0d8b1988-516e-43f3-abc5-822628139940" /></p>
+
+### 4. Cài đặt thư viện trên nodered.</p>
+1. Truy cập giao diện Nodered bằng url: ***http://localhost:1880***
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2762af00-2434-4b8c-8eb4-11f1ecec1ffa" /></p>
+2. Cài đặt các thư viện:</p>
+2.1. Node-red-contrib-mssql-plus.</p>
+
+
+
+
+
+
+
 
 
 
