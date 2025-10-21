@@ -109,6 +109,18 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 <img width="725" height="155" alt="image" src="https://github.com/user-attachments/assets/76bc3369-39c9-43dd-b716-0a9fe3976aee" /></p>
 2.7. ***node-red-contrib-cron-plus***.</p>
 <img width="733" height="180" alt="image" src="https://github.com/user-attachments/assets/ac09d661-1e35-4660-a213-4d153d636a51" /></p>
+3. Sửa file `D:\nodejs\nodered\work\settings.js - > xoá dấu **//** ở 8 dòng dưới.</p>
+- <img width="902" height="287" alt="image" src="https://github.com/user-attachments/assets/747b90ad-1e9b-4f25-aa7b-a7d647b20039" /></p>
+3.1. ***Sinh mật khẩu mã hoá mới***.</p>
+- Dùng Tool: `https://tms.tnut.edu.vn/pw.php`</p>
+<img width="706" height="172" alt="image" src="https://github.com/user-attachments/assets/3e30e05c-f465-4026-a53c-955f1b8acc0c" /></p>
+4. Khởi động lại Nodered.</p>
+<img width="530" height="128" alt="image" src="https://github.com/user-attachments/assets/6f6eaca8-6cce-45df-960e-1c42538ba8ac" /></p>
+5. Truy cập lại Node-RED.</p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4d84025-e00b-49aa-9ee9-233291c683c7" /></p>
+
+
+
 
 
 
