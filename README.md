@@ -133,7 +133,8 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 2.5. ***Thêm node 'Debug'***.</p>
 <img width="952" height="861" alt="image" src="https://github.com/user-attachments/assets/d16cbc19-0faf-4031-80ea-d67137388725" /></p>
 2.6. ***Test API***.</p>
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/48cc6096-6789-47e5-bcb3-f4b8ce086e1f" /></p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82064bbc-b41b-4267-aded-3d42c125166f" /></p>
+
 
 
 
