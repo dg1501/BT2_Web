@@ -119,6 +119,16 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 5. Truy cập lại Node-RED.</p>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4d84025-e00b-49aa-9ee9-233291c683c7" /></p>
 
+### 5. Tạo api back-end bằng nodered.</p>
+1. Tại giao diện Nodered - Flow1: Thực hiện kéo thả các node như sau: http in, http response, MSSQL, function.</p>
+2. Cấu hình các Node.</p>
+2.1. ***http in***.</p>
+<img width="639" height="413" alt="image" src="https://github.com/user-attachments/assets/fed8d647-2c21-435e-9eab-c6d86ffa4a4a" /></p>
+2.2. ***function***.</p>
+<img width="832" height="675" alt="image" src="https://github.com/user-attachments/assets/f50a5f9f-8701-4543-a726-3ae83c66a92a" /></p>
+2.3. ***MSSQL***.</p>
+
+
 
 
 
