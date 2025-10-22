@@ -156,11 +156,35 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a490afb-6250-4ab0-a762-1f106f1e4f48" /></P>
 
 ### 7. Nhận xét bài làm của mình.</p>
-1. Quá trình cài đặt các phần mềm và các thư viện.</p>
+1. *Quá trình cài đặt các phần mềm và các thư viện*.</p>
+- Em đã hiểu rõ cách cài đặt Apache để chạy web front-end và Node-RED để làm API back-end.</p>
+- Apache được cấu hình làm web server nội bộ, giúp truy cập giao diện qua địa chỉ http://localhost.</p>
+- Node-RED được cài đặt thông qua Node.js, sau đó chạy trên cổng 1880.</p>
+- Trong Node-RED, tôi sử dụng các node cơ bản như HTTP In, Function, MSSQL, và HTTP Response để xử lý yêu cầu và trả kết quả dạng JSON.</p>
+- Việc cài đặt và cấu hình được thực hiện tuần tự, giúp em hiểu mối liên kết giữa máy chủ web (Apache) và máy chủ API (Node-RED).</p>
 
+2. *Cách sử dụng nodered để tạo api back-end*.</p>
+->Em đã nắm được cách tạo API trong Node-RED bằng cách:</p>
++ Thêm node HTTP In để định nghĩa đường dẫn (ví dụ /timkiem?q=...).</p>
++ Dùng node Function để xử lý dữ liệu đầu vào và tạo câu truy vấn SQL.</p>
++ Kết nối node MSSQL để truy vấn cơ sở dữ liệu và nhận kết quả.</p>
++ Dùng node HTTP Response để gửi lại kết quả cho front-end dưới dạng JSON.</p>
++ Nhờ đó, Node-RED hoạt động như một back-end API đơn giản nhưng dễ hiểu, dễ chỉnh sửa mà không cần viết code phức tạp.</p>
 
+3. *cách frond-end tương tác với back-end*.</p>
+3.1. **Phần front-end gồm 3 file:** </p>
++ index.html (tạo form nhập dữ liệu)</p>
++ nguyenducduong.css (trang trí giao diện có dấu ấn cá nhân)</p>
++ nguyenducduong.js (xử lý logic, gửi và nhận dữ liệu)</p>
 
+3.2. **Khi người dùng nhập từ khóa và nhấn Tìm kiếm, file nguyenducduong.js sẽ:** </p>
++ Lấy dữ liệu từ form</p>
++ Gửi yêu cầu đến API Node-RED bằng phương thức fetch()</p>
++ Nhận kết quả JSON trả về</p>
++ Hiển thị kết quả lên giao diện một cách trực quan.</p>
 
+3.3. Qua bước này, em hiểu rõ cách giao tiếp giữa front-end và back-end:</p>
+✅ **result**: Front-end gửi yêu cầu → Back-end xử lý → Trả về JSON → Front-end hiển thị kết quả.</p>
 
 
 
