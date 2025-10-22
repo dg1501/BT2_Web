@@ -153,8 +153,10 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 
 3. Kiểm tra kết quả.</p>
 - Truy cập bằng Url: **http://localhost**.</p>
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5591e2c4-f406-4ccd-9ce5-d44f0415e589" /></p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a490afb-6250-4ab0-a762-1f106f1e4f48" /></P>
 
+### 7. Nhận xét bài làm của mình.</p>
+1. Quá trình cài đặt các phần mềm và các thư viện.</p>
 
 
 
