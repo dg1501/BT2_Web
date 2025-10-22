@@ -1,4 +1,3 @@
-# Bài Tập 02: Lập Trình Web
 ## Nội Dung Bài Tập
 ### 1. *Cài đặt Apache web server*.
 ### 2. *Cài đặt nodejs và nodered => Dùng làm backend.*
@@ -136,6 +135,26 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a138002d-4254-4357-89a6-a9f0fbd7afba" /></p>
 2.7. ***Test API***.</p>
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/82064bbc-b41b-4267-aded-3d42c125166f" /></p>
+
+### 6. Tạo giao diện front-end.</p>
+1. Tạo 3 file trong thư mục *D:\Apache24\nguyenducduong*.</p>
++ index.html.</p>
++ nguyenducduong.css.</p>
++ nguyenducduong.js.</p>
+<img width="1155" height="615" alt="image" src="https://github.com/user-attachments/assets/5166aec9-b67a-47f7-a27f-b2da000f3cf5" /></p>
+
+2. Thêm code cho cả 3 file.</p>
+2.1. *index.html*.</p>
+<img width="991" height="645" alt="image" src="https://github.com/user-attachments/assets/4c90deb3-fa75-4054-96c1-4e63a0006b88" /></p>
+2.2. *nguyenducduong.css*.</p>
+<img width="966" height="587" alt="image" src="https://github.com/user-attachments/assets/a2c5ee69-b81a-48d6-b7ae-85f033ea9b54" /></p>
+2.3. *nguyenducduong.js*.</p>
+<img width="950" height="608" alt="image" src="https://github.com/user-attachments/assets/6d74eab0-a0e0-46bb-8746-fa976117c847" /></p>
+
+3. Kiểm tra kết quả.</p>
+- Truy cập bằng Url: **http://localhost**.</p>
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5591e2c4-f406-4ccd-9ce5-d44f0415e589" /></p>
+
 
 
 
