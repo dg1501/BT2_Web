@@ -157,30 +157,36 @@ node "D:\nodejs\nodered\node_modules\node-red\red.js" -u "D:\nodejs\nodered\work
 
 ### 7. Nhận xét bài làm của mình.</p>
 1. *Quá trình cài đặt các phần mềm và các thư viện*.</p>
+-> Qua quá trình làm bài, em đã hiểu rõ hơn cách cài đặt và cấu hình các phần mềm cần thiết như Apache, Node.js và Node-RED.</p>
 - Em đã hiểu rõ cách cài đặt Apache để chạy web front-end và Node-RED để làm API back-end.</p>
-- Apache được cấu hình làm web server nội bộ, giúp truy cập giao diện qua địa chỉ http://localhost.</p>
-- Node-RED được cài đặt thông qua Node.js, sau đó chạy trên cổng 1880.</p>
-- Trong Node-RED, tôi sử dụng các node cơ bản như HTTP In, Function, MSSQL, và HTTP Response để xử lý yêu cầu và trả kết quả dạng JSON.</p>
-- Việc cài đặt và cấu hình được thực hiện tuần tự, giúp em hiểu mối liên kết giữa máy chủ web (Apache) và máy chủ API (Node-RED).</p>
+- Apache được cấu hình làm web server nội bộ, giúp truy cập giao diện qua địa chỉ http://localhost. Em đặt các file HTML, CSS và JS trong thư mục htdocs để khi bật Apache là có thể truy cập được ngay.</p>
+- Node.js được cài đặt trước để làm môi trường chạy cho Node-RED. Sau đó em dùng lệnh npm install -g node-red để cài đặt và chạy thử. Node-RED mặc định chạy trên cổng 1880, có giao diện kéo thả rất dễ thao tác.</p>
+- Trong Node-RED, em sử dụng các node cơ bản như HTTP In, Function, MSSQL, và HTTP Response để xử lý yêu cầu và trả kết quả dạng JSON.</p>
+--- Node HTTP In nhận request từ trình duyệt.</p>
+--- Node Function dùng để viết script xử lý logic và tạo câu truy vấn SQL.</p>
+--- Node MSSQL kết nối đến SQL Server để lấy dữ liệu.</p>
+--- Node HTTP Response gửi kết quả trả về cho front-end.</p>
+- Việc cài đặt và cấu hình được thực hiện tuần tự, giúp em hiểu rõ mối liên kết giữa máy chủ web (Apache) và máy chủ API (Node-RED), cũng như cách để chúng hoạt động cùng nhau trên cùng máy tính.</p>
 
 2. *Cách sử dụng nodered để tạo api back-end*.</p>
-->Em đã nắm được cách tạo API trong Node-RED bằng cách:</p>
-+ Thêm node HTTP In để định nghĩa đường dẫn (ví dụ /timkiem?q=...).</p>
+->Em đã nắm được cách tạo và triển khai API trong Node-RED bằng cách thực hành trực tiếp trên giao diện bằng cách:</p>
++ Thêm node HTTP In để định nghĩa đường dẫn (ví dụ /timkiem?q=...), đồng thời chọn phương thức GET để nhận dữ liệu từ front-end.</p>
 + Dùng node Function để xử lý dữ liệu đầu vào và tạo câu truy vấn SQL.</p>
-+ Kết nối node MSSQL để truy vấn cơ sở dữ liệu và nhận kết quả.</p>
-+ Dùng node HTTP Response để gửi lại kết quả cho front-end dưới dạng JSON.</p>
++ Kết nối node MSSQL, cấu hình tài khoản, tên database và server để truy vấn dữ liệu thật và nhận kết quả.</p>
++ Dùng node HTTP Response để gửi lại kết quả cho front-end dưới dạng JSON, giúp dễ dàng xử lý bằng JavaScript.</p>
++ Em cũng đã thử test API trực tiếp bằng cách nhập URL lên trình duyệt (ví dụ http://localhost:1880/timkiem?q=abc) để kiểm tra xem JSON có trả về đúng hay không.</p>
 + Nhờ đó, Node-RED hoạt động như một back-end API đơn giản nhưng dễ hiểu, dễ chỉnh sửa mà không cần viết code phức tạp.</p>
 
 3. *cách frond-end tương tác với back-end*.</p>
 3.1. **Phần front-end gồm 3 file:** </p>
-+ index.html (tạo form nhập dữ liệu)</p>
-+ nguyenducduong.css (trang trí giao diện có dấu ấn cá nhân)</p>
-+ nguyenducduong.js (xử lý logic, gửi và nhận dữ liệu)</p>
++ index.html (tạo form nhập dữ liệu, gồm ô nhập từ khóa và nút “Tìm kiếm”. Giao diện đơn giản, dễ dùng)</p>
++ nguyenducduong.css (em tự thiết kế màu sắc, căn lề, font chữ để trang có phong cách cá nhân, thể hiện rõ phần của mình)</p>
++ nguyenducduong.js (chịu trách nhiệm xử lý logic, lấy dữ liệu người dùng nhập, gửi đến API Node-RED và nhận kết quả trả về)</p>
 
 3.2. **Khi người dùng nhập từ khóa và nhấn Tìm kiếm, file nguyenducduong.js sẽ:** </p>
-+ Lấy dữ liệu từ form</p>
-+ Gửi yêu cầu đến API Node-RED bằng phương thức fetch()</p>
-+ Nhận kết quả JSON trả về</p>
++ Lấy dữ liệu từ form bằng DOM (document.getElementById).</p>
++ Gửi yêu cầu đến API Node-RED bằng phương thức fetch(), kèm theo tham số q</p>
++ Nhận kết quả JSON trả về từ API</p>
 + Hiển thị kết quả lên giao diện một cách trực quan.</p>
 
 3.3. Qua bước này, em hiểu rõ cách giao tiếp giữa front-end và back-end:</p>
