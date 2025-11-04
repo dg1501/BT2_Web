@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Form tìm kiếm — nguyenducduong</title>
+    <link rel="stylesheet" href="nguyenducduong.css" />
+  </head>
+  <body>
+    <main class="container">
+      <header class="brand">
+        <h1>WEB CỦA DƯƠNG</h1>
+      </header>
+
+      <section class="form-card" aria-labelledby="form-title">
+        <h2 id="form-title">Form tìm kiếm</h2>
+
+        <form id="searchForm" autocomplete="off" novalidate>
+          <label for="q">Từ khóa (q)</label>
+          <input
+            id="q"
+            name="q"
+            type="text"
+            placeholder="Nhập từ khóa cần tìm..."
+            required
+          />
+
+          <div class="row">
+            <button id="submitBtn" type="submit">Tìm kiếm</button>
+            <button id="clearBtn" type="button" class="ghost">Xóa</button>
+          </div>
+
+          <div id="hint" class="hint">Gợi ý: thử nhập "Hà Nội" hoặc "123".</div>
+        </form>
+      </section>
+
+      <section class="result-card" aria-live="polite">
+        <h2>Kết quả</h2>
+        <div id="status" class="status">Chưa có truy vấn.</div>
+        <div id="result"></div>
+      </section>
+
+      <footer class="footer">
+        <small>
+          Frontend by <strong>nguyenducduong</strong> — Node-RED API tại
+          <code>http://localhost:1880/timkiem</code>
+        </small>
+      </footer>
+    </main>
+
+    <script src="nguyenducduong.js" defer></script>
+  </body>
+</html>
